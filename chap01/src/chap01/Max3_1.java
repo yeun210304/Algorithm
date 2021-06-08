@@ -7,18 +7,17 @@ public class Max3_1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		/*
-		 * ¼øÂ÷Àû(concatenation)±¸Á¶ : ¼øÂ÷ÀûÀ¸·Î ¿©·¯¹®Àå(ÇÁ·Î¼¼½º)ÀÌ ½ÇÇàµÇ´Â ±¸Á¶.
-		 * ¼±ÅÃ(selection)±¸Á¶ : () ¾È ½ÄÀÇ Æò°¡°á°ú¿¡ µû¶ó ÇÁ·Î±×·¥ÀÇ ½ÇÇàÈå¸§À» º¯°æÇÏ´Â if¹®.
+			3ê°œì˜ ì •ìˆ«ê°’ì„ ì…ë ¥í•˜ê³  ìµœëŒ“ê°’ì„ êµ¬í•©ë‹ˆë‹¤.
 		 */
-		System.out.println("¼¼ Á¤¼öÀÇ ÃÖ´ñ°ªÀ» ±¸ÇÕ´Ï´Ù.");
-		System.out.println("aÀÇ °ª : "); int a = sc.nextInt();
-		System.out.println("bÀÇ °ª : "); int b = sc.nextInt();
-		System.out.println("cÀÇ °ª : "); int c = sc.nextInt();
+		System.out.println("ì„¸ ì •ìˆ˜ì˜ ìµœëŒ“ê°’ì„ êµ¬í•©ë‹ˆë‹¤.");
+		System.out.println("aì˜ ê°’ : "); int a = sc.nextInt();
+		System.out.println("bì˜ ê°’ : "); int b = sc.nextInt();
+		System.out.println("cì˜ ê°’ : "); int c = sc.nextInt();
 		
 		int max = a;
 		if (b > max) max = b;
 		if (c > max) max = c;
 		
-		System.out.println("ÃÖ´ñ°ªÀº " + max + "ÀÔ´Ï´Ù.");
+		System.out.println("ìµœëŒ“ê°’ì€ " + max + "ì…ë‹ˆë‹¤.");
 	}
 }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Max3_2 {
 
 	public static void main(String[] args) {
-		// ���μ� argument
+		// 3개의 정숫값을 구하여 출력합니다.
 		System.out.println("-------max3-------");
 		System.out.println("max3(3,2,1) = " + max3(3,2,1));
 		System.out.println("max3(1,3,2) = " + max3(1,3,2));
@@ -20,8 +20,8 @@ public class Max3_2 {
 	}
 	
 	static int max3(int a, int b, int c) {
-		// �Ű����� parameter
-		int max = a;
+		// a, b, c의 최댓값을 구하여 반환합니다.
+		int max = a;			// 최댓값
 		if(b > max)
 			max = b;
 		if (c > max)
