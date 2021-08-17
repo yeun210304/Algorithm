@@ -12,8 +12,8 @@ public class Digits {
 		do {
 			System.out.println("입력 : ");
 			no = stdIn.nextInt();
-		} while (no < 10 || no > 90);
-		
+		} while (no < 10 || no > 99);
+				// 10이하 이거나 99이상이면 
 		System.out.println("변수 no의 값은 " + no + "가(이) 되었습니다.");
 	}
 }
