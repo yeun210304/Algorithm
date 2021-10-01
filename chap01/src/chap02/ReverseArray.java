@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ReverseArray {
 
 	public static void main(String[] args) {
-		Scanner stdIn = new Scanner(System.in);
+		Scanner stdIn = new Scanner(System.in); 
 		
 		System.out.print("요솟수 :" );
 		int num = stdIn.nextInt();
