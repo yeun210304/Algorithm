@@ -1,9 +1,16 @@
 package baekJoon_level01;
 
 public class HelloWord {
-	// 1 Hello World!
+	// 2557 Hello World
 	public static void main(String[] args) {
-		System.out.print("Hello World!");
+		HelloWord helloWord = new HelloWord();
+		
+		String word = "Hello World!";
+		
+		helloWord.printWord(word);
 	}
-	
+
+	public void printWord(String word) {
+		System.out.printf("%s", word);
+	}
 }
