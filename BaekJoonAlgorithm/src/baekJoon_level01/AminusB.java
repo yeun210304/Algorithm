@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 //1000	A+B
 public class AminusB {
+	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
@@ -25,8 +26,9 @@ public class AminusB {
 	}
 	
 	public void printNumber(List<Integer> numbers) {
+		int firstNumber  = numbers.get(0) == null ? 0 : numbers.get(0);
+		int secondNumber = numbers.get(1) == null ? 0 : numbers.get(1);
 		
+		System.out.printf("%d", firstNumber - secondNumber);
 	}
-	
-
 }
