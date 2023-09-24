@@ -1,4 +1,4 @@
-package baekJoon_level01;
+package baekjoonLevel01;
 
 public class Cat {
 	// 12 10171 고양이

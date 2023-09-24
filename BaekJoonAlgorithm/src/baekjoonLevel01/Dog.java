@@ -1,4 +1,4 @@
-package baekJoon_level01;
+package baekjoonLevel01;
 
 public class Dog {
 	// 13	10172	개
