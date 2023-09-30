@@ -12,13 +12,15 @@ public class AlarmClock {
 		int min = sc.nextInt();
 		
 		sc.close();
+
+		if (45 > min) {
+			hour--;
+			min = 60 - (45-min);
+		}
+		else min -= 45;
+			
+		if (0 > hour) hour += 24; 
 		
-		hour = 0 >= hour ? 24 : hour;
-		
-		int sum = (hour * 60 + min) - 45;
-		int printHour = 0 > sum/60 ? 23 : sum/60;
-		int printMin = sum % 60;
-	
-		System.out.println(printHour + " " + printMin);
+		System.out.printf("%d %d", hour, min);
 	}
 }
