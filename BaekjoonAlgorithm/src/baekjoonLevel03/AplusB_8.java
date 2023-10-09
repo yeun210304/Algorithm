@@ -2,7 +2,7 @@ package baekjoonLevel03;
 
 import java.util.Scanner;
 
-public class AplusBminusEight {
+public class AplusB_8 {
 	// 11022	A+B - 8
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
