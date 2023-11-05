@@ -35,27 +35,27 @@ public class CheckAttendanceNumber {
 		System.out.println(thirty.toString());
 		
 		
-//		for (int i = 0; i < 28; i++) {
-//			int in = sc.nextInt();
-//			int who = 0;
-//			int index = 0;
-//			boolean same = false;
-//
-//			for (int j = 1; j <= 30; j++) {
-//				if (in == j) {
-//					same = true;
-//					continue;
-//				}
-//			}
-//			
-//			if (!same) {
-//				index++;
-//				result[index] = who;
-//			}
-//		}		
-//		
-//		for (int i = 0; i < result.length; i++) {
-//			System.out.println(result[i]);
-//		}
+		for (int i = 0; i < 28; i++) {
+			int in = sc.nextInt();
+			int who = 0;
+			int index = 0;
+			boolean same = false;
+
+			for (int j = 1; j <= 30; j++) {
+				if (in == j) {
+					same = true;
+					continue;
+				}
+			}
+			
+			if (!same) {
+				index++;
+				result[index] = who;
+			}
+		}		
+		
+		for (int i = 0; i < result.length; i++) {
+			System.out.println(result[i]);
+		}
 	}
 }
