@@ -19,7 +19,7 @@ public class Average {
 		sc.close();
 		
 		for (int i = 0; i < subjectArr.length; i++) { 
-			m = (int) Math.max(m, subjectArr[i]);
+			m = Math.max(m, subjectArr[i]);
 		}
 		for (int i = 0; i < subjectArr.length; i++) {
 			subjectArr[i] = subjectArr[i]/m*100; 
