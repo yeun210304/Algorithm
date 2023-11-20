@@ -22,11 +22,11 @@ public class Average {
 			m = Math.max(m, subjectArr[i]);
 		}
 		for (int i = 0; i < subjectArr.length; i++) {
-			subjectArr[i] = subjectArr[i]/m*100; 
+			subjectArr[i] = subjectArr[i]/m*100;
+			
+			sum += subjectArr[i];
 		}
-		for (int i = 0; i < subjectArr.length; i++) {
-			 sum += subjectArr[i];
-		}
+
 		System.out.println(sum/subjectNum);
 	}
 }
