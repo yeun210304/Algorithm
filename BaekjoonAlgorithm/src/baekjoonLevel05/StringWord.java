@@ -7,14 +7,10 @@ public class StringWord {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 
-		String[] strArr = new String[in.nextInt()];
+		int num = in.nextInt();
 
-		for (int i = 0; i < strArr.length; i++) {
-			strArr[i] = in.next();
-		}
-
-		for (int i = 0; i < strArr.length; i++) {
-			String str = strArr[i];
+		for (int i = 0; i < num; i++) {
+			String str = in.next();
 			
 			System.out.print(str.charAt(0));
 			System.out.println(str.charAt(str.length() - 1));
