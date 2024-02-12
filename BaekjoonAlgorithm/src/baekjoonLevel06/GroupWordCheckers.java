@@ -1,6 +1,5 @@
 package baekjoonLevel06;
 
-import java.util.Iterator;
 import java.util.Scanner;
 
 // 1316	그룹 단어 체커
@@ -21,9 +20,15 @@ public class GroupWordCheckers {
 			
 			boolean gw = true;
 			
-			for (int j = 1; j < sArr.length; j++) {
-				sArr[j]
+			StringBuffer sb = new StringBuffer();
+			
+			for (int j = 0; j < word.length(); j++) {
+				if (word.charAt(j) != (j + 1 != word.length() ? word.charAt(j + 1) : word.length())) {
+					sb.append(word.charAt(j));
+				}
 			}
+			
+			word = sb.toString();
 
 			for (int j = 0; j < word.length(); j++) {
 				String c = "" + word.charAt(j);
