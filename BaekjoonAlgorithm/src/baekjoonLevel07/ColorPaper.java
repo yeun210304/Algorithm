@@ -16,9 +16,10 @@ public class ColorPaper {
             int x = in.nextInt();
             int y = in.nextInt();
         
-            for (int j = 0; j <= 10; j++) {
-                arr[x + j][y] = 1;
-                arr[x][y + j] = 1;
+            for (int j = x; j < x+10; j++) {
+                for (int k = y; k < y+10; k++) {
+                    arr[j][k] = 1;
+                }
             }
         }
         in.close();
