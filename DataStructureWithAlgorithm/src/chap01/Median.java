@@ -35,4 +35,16 @@ public class Median {
             return b;
         }
     }
+
+    static int med3_otherWay(int a, int b, int c) {
+        if ((b >= a && c < a) || (b <= a && c >= a)) {
+            return a;
+        }
+        else if ((a > b && c < b) || (a < b && c > b)) {
+            return b;
+        }
+        else {
+            return c;
+        }
+    }
 } 
