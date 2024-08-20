@@ -22,5 +22,17 @@ public class Q6 {
 
         System.out.println("합계 : " + sum);
         System.out.println("i : " + i);
+
+
+        boolean x = true;
+        boolean y = true;
+
+        if (x && y)     {}
+
+        if (    !(!x || !y) ) {}
+
+        if (x || y) {}
+
+        if (    !(!x && !y)     ) {}
     }
 }
