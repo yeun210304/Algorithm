@@ -2,16 +2,13 @@ package chap02;
 
 import java.util.Scanner;
 
-/**
- * 해당 연도의 결과 일 수를 계산한다.
- */
-public class DayOfYear {
+public class Q8 {
     // 각 달의 일수
     static int[][] mdays = {
         {31,28,31,30,31,30,31,31,30,31,30,31},  // 평년
         {31,29,31,30,31,30,31,31,30,31,30,31}   // 윤년 (2월이 29일이다)
     };
-
+    
     /**
      * year가 윤년인 지 확인한다.
      * @param year 확인할 연도
@@ -29,13 +26,15 @@ public class DayOfYear {
      * @return 경과일 수
      */
     static int dayOfYear(int y, int m , int d) {
-        int days = d;
-        
-        // 입력 월d의 전달까지만 일 수를 더해야 하기때문에 i는 1부터
-        // 더할 때는 i-1을 한다.
-        for (int i = 1; i < m; i++) 
-            days += mdays[isLeap(y)][i-1];
-        return days;
+        m -= 1;
+        while (m > 0) {
+            m--;
+            d += mdays[isLeap(y)][m];
+        }
+        // 정답코드
+        // while (--m != 0)
+		// 	d += mdays[isLeap(y)][m - 1];
+        return d;
     }
 
     public static void main(String[] args) {
