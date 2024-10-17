@@ -47,13 +47,14 @@ public class Q11 {
                     temp.y--;
                     temp.m = 12;
                 }
+                temp.d += mdays[isLeap(temp.y)][temp.m - 1];
             }
 
             return temp;
         }
 
         // 서기 year년은 윤년인가? (윤년：1／평년：0)
-        static int isLeap(int year) {
+        int isLeap(int year) {
             return (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) ? 1 : 0;
         }
 
@@ -77,11 +78,12 @@ public class Q11 {
 
         YMD ymd = new YMD(y, m, d);
 
-        YMD d1 = ymd.afterN(n);
-		System.out.printf("%d일 뒤의 날짜는 %d년 %d월 %d일입니다.\n", n, d1.y, d1.m, d1.d);
+        YMD afterN = ymd.afterN(n);
+		System.out.printf("%d일 뒤의 날짜는 %d년 %d월 %d일입니다.\n", n, afterN.y, afterN.m, afterN.d);
 
-		YMD d2 = ymd.beforeN(n);
-		System.out.printf("%d일 앞의 날짜는 %d년 %d월 %d일입니다.\n", n, d2.y, d2.m, d2.d);
+        YMD beforeN = ymd.beforeN(n);
+		System.out.printf("%d일 앞의 날짜는 %d년 %d월 %d일입니다.\n", n, beforeN.y, beforeN.m, beforeN.d);
+
     }
 }
 
