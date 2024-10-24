@@ -16,6 +16,6 @@ public class BinarySearchTester2 {
 
         lst.sort(null);
         int idx = Collections.binarySearch(lst, 3);
-
+        System.out.println("index : " + idx);
     }
 }
