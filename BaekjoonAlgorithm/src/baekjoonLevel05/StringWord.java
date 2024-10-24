@@ -15,5 +15,6 @@ public class StringWord {
 			System.out.print(str.charAt(0));
 			System.out.println(str.charAt(str.length() - 1));
 		}
+		in.close();
 	}
 }

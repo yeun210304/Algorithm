@@ -14,6 +14,7 @@ public class SumForPos {
 			System.out.print("n의 값: ");
 			n = stdIn.nextInt();
 		}while(n <= 0);			// 0보다 작은 숫자를 입력할 시 실행되지 않는다.
+		stdIn.close();
 		
 		int sum = 0;			// 합
 		

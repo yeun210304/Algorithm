@@ -20,6 +20,7 @@ public class MaxOfArrayRand {
 		System.out.println("키의 최댓값을 구합니다.");
 		System.out.print("사람 수 : ");
 		int num = stdIn.nextInt();
+		stdIn.close();
 		
 		int[] height = new int[num];
 		

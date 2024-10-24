@@ -11,8 +11,6 @@ public class AplusB_7 {
 		String[] out = new String[t];
 		
 		for (int i=0; i<t; i++) {
-			int sum = 0;
-			
 			int a = sc.nextInt();
 			int b = sc.nextInt();
 			

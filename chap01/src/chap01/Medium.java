@@ -59,6 +59,7 @@ public class Medium {
 		int b = stdIn.nextInt();
 		System.out.println("c�� ��: ");
 		int c = stdIn.nextInt();
+		stdIn.close();
 		
 		System.out.println("�߾Ӱ��� " + med3(a, b, c) + "�Դϴ�.");
 		System.out.println("�߾Ӱ��� " + medium3(a, b, c) + "�Դϴ�.");

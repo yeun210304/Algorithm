@@ -12,5 +12,6 @@ public class LettersAndStrings {
 		char[] arr = letter.toCharArray();
 		
 		System.out.println(arr[in.nextInt() - 1]);
+		in.close();
 	}
 }

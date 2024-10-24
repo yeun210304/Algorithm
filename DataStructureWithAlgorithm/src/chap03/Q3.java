@@ -20,6 +20,7 @@ public class Q3 {
         do {
             key = sc.nextInt();
         } while (key < -1 || 9 < key);
+        sc.close();
 
         int count = searchIdx(a, a.length, key, idx);
 

@@ -1,7 +1,6 @@
 package chap03;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
@@ -12,7 +11,7 @@ public class Q4 {
     int pl;
     int pc;
     int pr;
-    List lst;
+    List<Integer> lst;
 
     Q4 () {
         
@@ -40,7 +39,9 @@ public class Q4 {
     int printLetterScanInt(String letter) {
         System.err.print(letter);
         Scanner sc = new Scanner(System.in);
-        return sc.nextInt();
+        int res = sc.nextInt();
+        sc.close();
+        return res;
     }
 
     int findKy() {

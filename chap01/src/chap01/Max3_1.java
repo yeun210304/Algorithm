@@ -13,6 +13,7 @@ public class Max3_1 {
 		System.out.println("a의 값 : "); int a = sc.nextInt();
 		System.out.println("b의 값 : "); int b = sc.nextInt();
 		System.out.println("c의 값 : "); int c = sc.nextInt();
+		sc.close();
 		
 		int max = a;
 		if (b > max) max = b;

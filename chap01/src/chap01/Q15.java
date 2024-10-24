@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class Q15 {
 
 	public static void main(String[] args) {
-		
-		System.out.println("숫자를 입력하시오.");
-		
 		Scanner sc = new Scanner(System.in);
+		System.out.println("숫자를 입력하시오.");
 		int n = sc.nextInt();
+		sc.close();
 		
 		triangleLB(n);
 

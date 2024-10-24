@@ -42,7 +42,6 @@ public class Q6 {
         System.out.print("변환할 정수를 입력하시오 : ");
         int no = sc.nextInt();              // 변환할 정수
         int cd;                             // 기수
-        int dno;                            // 변환 후 자릿수
         int digits;
         char[] cno = new char[32];          // 변환 후 숫자를 담는다.
 

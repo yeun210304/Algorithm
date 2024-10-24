@@ -15,5 +15,6 @@ public class PrintAsIs {
 			
 			System.out.println(in.nextLine());
 		}
+		in.close();
 	}
 }

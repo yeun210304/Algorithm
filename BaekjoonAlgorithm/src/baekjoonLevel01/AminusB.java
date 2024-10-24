@@ -21,7 +21,8 @@ public class AminusB {
 		
 		numbersList.add(scanner.nextInt());
 		numbersList.add(scanner.nextInt());
-		
+		scanner.close();
+
 		if (numbersList.size() == 2) aMinusB.printNumber(numbersList);
 	}
 	

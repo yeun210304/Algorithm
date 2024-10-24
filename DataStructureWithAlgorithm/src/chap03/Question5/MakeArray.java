@@ -18,6 +18,7 @@ public class MakeArray extends Q5 {
             System.out.print("배열 크기를 입력하시오(홀수만 가능) : ");
             super.len = sc.nextInt();
         } while (super.len % 2 == 0);
+        sc.close();
     }
 
     void addArrayRandomLiteral() {

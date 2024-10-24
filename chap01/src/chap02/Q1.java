@@ -1,12 +1,10 @@
 package chap02;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class Q1 {
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
 		Random rand = new Random();
 		
 		System.out.print("사람 수 : ");

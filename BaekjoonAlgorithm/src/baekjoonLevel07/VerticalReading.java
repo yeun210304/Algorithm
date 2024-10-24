@@ -17,6 +17,7 @@ public class VerticalReading {
                 arr[i][j] = s.charAt(j);
             }
         }
+        in.close();
 
         for (int i = 0; i < 15; i++) {
             for (int j = 0; j < arr.length; j++) {

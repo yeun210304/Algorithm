@@ -43,6 +43,7 @@ public class GroupWordCheckers {
 				res++;
 			}
 		}
+		in.close();
 
 		System.out.print(res);
 	}

@@ -21,5 +21,6 @@ public class StringRepetition {
 			}
 			System.out.println();
 		}
+		in.close();
 	}
 }

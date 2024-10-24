@@ -11,6 +11,7 @@ public class JudgeSign {
 		
 		System.out.println("정수를 입력하세요. : ");
 		int n = stdIn.nextInt();
+		stdIn.close();
 		
 		if (n > 0)
 			System.out.println("이 수는 양수입니다.");

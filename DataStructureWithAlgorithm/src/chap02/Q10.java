@@ -1,7 +1,5 @@
 package chap02;
 
-import java.util.Scanner;
-
 public class Q10 {
 static final int VMAX = 21; // 시력 분포(0.0에서 0.1 단위로 21개)
     static class PhyscData {
@@ -38,8 +36,6 @@ static final int VMAX = 21; // 시력 분포(0.0에서 0.1 단위로 21개)
     }
 
     public static void main(String[] args) {
-        Scanner stdIn = new Scanner(System.in);
-
         PhyscData[] x = {
                 new PhyscData("박현규", 162, 0.3),
                 new PhyscData("함진아", 173, 0.7),

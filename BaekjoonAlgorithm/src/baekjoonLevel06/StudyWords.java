@@ -20,7 +20,7 @@ public class StudyWords {
 		
 		String c = "";
 		
-		HashMap<Integer, ArrayList> map = new HashMap<>();
+		HashMap<Integer, ArrayList<String>> map = new HashMap<>();
 		
 		Arrays.sort(word);
 		

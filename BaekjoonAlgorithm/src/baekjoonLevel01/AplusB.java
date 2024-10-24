@@ -8,14 +8,15 @@ import java.util.Scanner;
 //1000	A+B
 public class AplusB {
 	public static void main(String[] args) {
-    	Scanner scanner = new Scanner(System.in);
-		
-    	AplusB aPlusB = new AplusB();
-        
+		Scanner scanner = new Scanner(System.in);
+
+		AplusB aPlusB = new AplusB();
+
 		List<Integer> numbersList = new ArrayList<Integer>();
 		
 		numbersList.add(scanner.nextInt());
 		numbersList.add(scanner.nextInt());
+		scanner.close();
 		
 		if (numbersList.size() == 2) aPlusB.printAddNumbers(numbersList);
 	}

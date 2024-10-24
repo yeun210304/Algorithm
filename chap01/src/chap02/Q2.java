@@ -11,6 +11,8 @@ public class Q2 {
 			System.out.print("x["+i+"]: ");
 			num[i] = stdIn.nextInt();
 		}
+		stdIn.close();
+		
 		reverse(num);
 		System.out.println("역순 정렬을 마쳤습니다.");
 	}

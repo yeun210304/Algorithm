@@ -17,6 +17,7 @@ public class MaxOfArray {
 			System.out.print("height[" + i + "] : ");
 			height[i] = stdIn.nextInt();
 		}
+		stdIn.close();
 		
 		System.out.println("최댓값은 " + maxOf(height) + "입니다.");
 	}

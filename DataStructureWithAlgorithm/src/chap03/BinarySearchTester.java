@@ -28,6 +28,7 @@ public class BinarySearchTester {
 
         System.out.print("검색할 값 : ");
         int ky = sc.nextInt();
+        sc.close();
         
         int idx = Arrays.binarySearch(x, ky);
 

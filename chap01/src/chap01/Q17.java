@@ -9,6 +9,8 @@ public class Q17 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("n을 입력하시오");
 		int n = sc.nextInt();
+		sc.close();
+
 		npira(n);
 	}
 	

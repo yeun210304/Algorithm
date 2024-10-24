@@ -23,6 +23,7 @@ public class ChageAball {
 			ball[firstIn-1] = secondBall;
 			ball[secondIn-1] = firstBall;
 		}
+		sc.close();
 		
 		for (int i = 0; i < ball.length; i++) {
 			System.out.printf("%d ", ball[i]);

@@ -8,6 +8,7 @@ public class AmultiplyB {
 
 		int firstNumber = scanner.nextInt();
 		int secondNumber = scanner.nextInt();
+		scanner.close();
 
 		System.out.print(firstNumber * secondNumber);
 	}

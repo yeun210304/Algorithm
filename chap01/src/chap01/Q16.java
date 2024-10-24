@@ -7,11 +7,11 @@ public class Q16 {
 	// n단의 피라미드를 출력하는 메서드를 작성하세요
 	
 	public static void main(String[] agrs) {
-		
 		int n;
 		Scanner sc = new Scanner(System.in);
 		System.out.print("숫자 n을 입력하시오.");
 		n = sc.nextInt();
+		sc.close();
 		
 		spira(n);
 	}

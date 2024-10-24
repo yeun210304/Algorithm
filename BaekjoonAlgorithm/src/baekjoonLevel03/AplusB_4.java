@@ -13,5 +13,7 @@ public class AplusB_4 {
 			
 			System.out.println(a + b);
 		}
+
+		sc.close();
 	}
 }

@@ -10,6 +10,8 @@ public class OvenClock {
 		int hour = sc.nextInt();
 		int min = sc.nextInt();
 		int time = sc.nextInt();
+		sc.close();
+		
 		int total = hour*60 + min + time;
 		int printHour = total / 60;
 		int printMin = total % 60;

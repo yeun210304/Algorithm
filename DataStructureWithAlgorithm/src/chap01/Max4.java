@@ -10,6 +10,7 @@ public class Max4 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("max : " + max4(sc.nextInt(), sc.nextInt(), sc.nextInt()));
+        sc.close();
     }
 
     public static int max4(int a, int b, int c) {

@@ -7,7 +7,6 @@ public class SnailWannaGoUp {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        StringBuffer sb = new StringBuffer();
 
         int a = in.nextInt();   // 낮에 올라가는 거리
         int b = in.nextInt();   // 밤에 미끄러지는 거리

@@ -14,6 +14,7 @@ public class AdivideB {
 		
 		float inputFirst = scanner.nextFloat();
 		float inputSecond = scanner.nextFloat();
+		scanner.close();
 		
 		System.out.println(inputFirst / inputSecond);
 	}

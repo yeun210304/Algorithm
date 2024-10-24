@@ -8,6 +8,7 @@ public class LittleJeongmin {
 		Scanner scanner = new Scanner(System.in);
 		
 		String input = scanner.nextLine();
+		scanner.close();
 		
 		String[] inputArr = input.split(" ");
 		

@@ -11,6 +11,7 @@ public class SumFor {
 		System.out.println("1부터 n까지의 합을 구합니다.");
 		System.out.println("n의 값 : ");
 		int n = stdIn.nextInt();
+		stdIn.close();
 		
 		int sum = 0;
 		

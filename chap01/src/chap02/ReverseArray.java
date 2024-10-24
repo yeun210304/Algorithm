@@ -16,6 +16,7 @@ public class ReverseArray {
 			System.out.print("x[" + i + "] : ");
 			x[i] = stdIn.nextInt();
 		}
+		stdIn.close();
 		
 		reverse(x);
 		

@@ -11,6 +11,8 @@ public class Q3 {
 			System.out.print("num["+i+"]: ");
 			num[i] = sc.nextInt();
 		}
+		sc.close();
+
 		System.out.print("num배열합계: "+sumOf(num));
 	}
 	

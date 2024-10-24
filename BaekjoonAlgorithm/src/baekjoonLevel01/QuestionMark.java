@@ -8,6 +8,7 @@ public class QuestionMark {
 		Scanner scanner = new Scanner(System.in);
 		
 		String id = scanner.next();
+		scanner.close();
 		
 		System.out.printf("%s??!", id);
 	}
