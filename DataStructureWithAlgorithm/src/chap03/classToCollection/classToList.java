@@ -1,10 +1,6 @@
 package chap03.classToCollection;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class classToList {
 
@@ -22,10 +18,5 @@ public class classToList {
         for (StudentMembers member : studentMembers) {
             System.out.printf("학번 %d의 이름은 %s\n", member.getNumber(), member. getName());
         }
-        
-
-
-
     }
-
 }
