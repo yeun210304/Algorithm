@@ -2,7 +2,7 @@ package chap03.classToCollection;
 
 import java.util.Arrays;
 
-public class classToArray {
+public class ClassToArray {
 
     public static void main(String[] args) {
         StudentMembers[] studentMembers = {
