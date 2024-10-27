@@ -3,7 +3,7 @@ package chap03.classToCollection;
 public class StudentMembers {
     private int number;
     private String name;
-
+    
     public StudentMembers() { }
 
     public StudentMembers(int number, String name) {

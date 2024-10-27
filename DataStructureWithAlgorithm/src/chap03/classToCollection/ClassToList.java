@@ -23,6 +23,5 @@ public class ClassToList {
         for (StudentMembers member : memberLst) {
             System.out.printf("학번 %d의 이름은 %s\n", member.getNumber(), member. getName());
         }
-
     }
 }
