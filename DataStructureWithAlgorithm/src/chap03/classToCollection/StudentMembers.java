@@ -1,26 +1,18 @@
 package chap03.classToCollection;
 
 public class StudentMembers {
-    private String name;
     private int number;
+    private String name;
 
     public StudentMembers() { }
 
-    public StudentMembers(String name, int number) {
-        this.name = name;
+    public StudentMembers(int number, String name) {
         this.number = number;
+        this.name = name;
     }
 
     public String toString() {
         return "number : " + this.number + ", name : " + this.name;
-    }
-
-    public String getName() {
-        return this.name;
-    }
-
-    public void setName(String name) {
-        this.name  = name;
     }
 
     public int getNumber() {
@@ -29,5 +21,13 @@ public class StudentMembers {
 
     public void setNumber(int number) {
         this.number = number;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String name) {
+        this.name  = name;
     }
 }

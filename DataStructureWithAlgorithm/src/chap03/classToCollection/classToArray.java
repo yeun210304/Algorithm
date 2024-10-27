@@ -6,11 +6,11 @@ public class ClassToArray {
 
     public static void main(String[] args) {
         StudentMembers[] studentMembers = {
-                new StudentMembers("장원영", 20241101),
-                new StudentMembers("안유진", 20240128),
-                new StudentMembers("레이", 20240724),
-                new StudentMembers("가을", 20241021),
-                new StudentMembers("리즈", 20240526),
+                new StudentMembers(20241101, "장원영"),
+                new StudentMembers(20240128, "안유진"),
+                new StudentMembers(20240724, "레이"),
+                new StudentMembers(20241021, "가을"),
+                new StudentMembers(20240526, "리즈"),
         };
 
         System.out.println("Arrays.toString(studentMembers) : "+Arrays.toString(studentMembers));
