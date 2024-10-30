@@ -2,6 +2,9 @@ package chap03.comparator;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
+
+import chap03.classToCollection.StudentMembers;
 
 // import chap03.classToCollection.StudentMembers;
 
@@ -28,6 +31,22 @@ public class KindOfArraySort {
         Integer[] num3 = Arrays.stream(numbers).boxed().toArray(Integer[]:: new);
         Arrays.sort(num3, Collections.reverseOrder());
         System.out.println("Arrays.sort(num3, Collections.reverseOrder()) : " + Arrays.toString(num3));
+
+        StudentMembers[] students = {
+            new StudentMembers(20241101, "장원영"),
+            new StudentMembers(20240128, "안유진"),
+            new StudentMembers(20240724, "레이"),
+            new StudentMembers(20241021, "가을"),
+            new StudentMembers(20240526, "리즈"),
+        };
+
+          // 학번을 기준으로 오름차순 정렬
+        Arrays.sort(students, (o1, o2) -> Integer.compare(o1.getNumber(), o2.getNumber()));
+
+
+        for (StudentMembers studentMembers : students) {
+            System.out.println(studentMembers);
+        }
 
 
         
