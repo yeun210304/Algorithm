@@ -1,4 +1,4 @@
-package baekjoonLevel08;
+package level08;
 
 import java.util.Scanner;
 
