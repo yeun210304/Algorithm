@@ -2,7 +2,6 @@ package chap03.comparator;
 
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 
 import chap03.classToCollection.StudentMembers;
 
@@ -22,15 +21,15 @@ public class KindOfArraySort {
         System.out.println("Arrays.sort(num2, 0, 5) : " + Arrays.toString(num2));
 
         // 수동정렬
-        // Integer[] num3 = new Integer[numbers.length];
+        Integer[] num3 = new Integer[numbers.length];
         
-        // for (int i = 0; i < num3.length; i++) {
-        //     num3[i] = numbers[i];
-        // }
+        for (int i = 0; i < num3.length; i++) {
+            num3[i] = numbers[i];
+        }
 
-        Integer[] num3 = Arrays.stream(numbers).boxed().toArray(Integer[]:: new);
-        Arrays.sort(num3, Collections.reverseOrder());
-        System.out.println("Arrays.sort(num3, Collections.reverseOrder()) : " + Arrays.toString(num3));
+        Integer[] num4 = Arrays.stream(numbers).boxed().toArray(Integer[]:: new);
+        Arrays.sort(num4, Collections.reverseOrder());
+        System.out.println("Arrays.sort(num3, Collections.reverseOrder()) : " + Arrays.toString(num4));
 
         StudentMembers[] students = {
             new StudentMembers(20241101, "장원영"),
@@ -47,8 +46,6 @@ public class KindOfArraySort {
         for (StudentMembers studentMembers : students) {
             System.out.println(studentMembers);
         }
-
-
         
     }
 }
