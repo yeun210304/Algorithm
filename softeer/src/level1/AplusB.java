@@ -18,5 +18,7 @@ public class AplusB {
             
             System.out.printf("Case #%d: %d\n", i, a+b);
         }
+
+        sc.close();
     }
 }
