@@ -35,11 +35,9 @@ public class GPTstyleComparingNumbers {
             
             double iTmp = Double.valueOf(orgI);
             int iX = (int) iTmp;
-            char[] iY = String.valueOf(iTmp % iX * (iX>10 ? 100 : 10)).toCharArray();
 
             double jTmp = Double.valueOf(orgJ);
             int jX = (int) jTmp;
-            char[] jY = String.valueOf(jTmp % jX * (jX>10 ? 100 : 10)).toCharArray();
 
             if (iX == jX) {
                 if (orgI.length() == orgJ.length()) {
