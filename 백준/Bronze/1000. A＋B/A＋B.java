@@ -1,13 +1,12 @@
 import java.util.Scanner;
 
-//1000	A+B
 public class Main {
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		
-		int firstNumber = scanner.nextInt();
-		int secondNumber = scanner.nextInt();
-		
-		System.out.print(firstNumber + secondNumber);
-	}
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        sc.close();
+        
+        System.out.println(a+b);
+    }
 }
