@@ -1,14 +1,12 @@
 import java.util.Arrays;
-import java.util.stream.IntStream;
 
 class Solution {
     public int solution(int[] num_list) {
-        int res1 = num_list[0];
-        for (int i=1; i<num_list.length; i++) {
-            res1 = res1 * num_list[i];
-        }
-        int res2 = Arrays.stream(num_list)
-            .sum();
-        return res1 < res2*res2 ? 1 : 0;
+        int sum = Arrays.stream(num_list)
+            .reduce((i , j) -> i*j)
+            .getAsInt();
+        int mult = (int) Math.pow(Arrays.stream(num_list)
+            .reduce((i , j) -> i+j).getAsInt(), 2);
+        return sum < mult ? 1 : 0;
     }
 }
