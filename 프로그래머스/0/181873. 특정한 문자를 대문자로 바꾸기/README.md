@@ -1,10 +1,10 @@
 # [level 0] 특정한 문자를 대문자로 바꾸기 - 181873 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181873?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181873) 
 
 ### 성능 요약
 
-메모리: 84.8 MB, 시간: 4.11 ms
+메모리: 78.2 MB, 시간: 0.45 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 12월 06일 20:34:31
+2025년 12월 06일 20:40:23
 
 ### 문제 설명
 
