@@ -1,8 +1,7 @@
 class Solution {
     public int solution(String num_str) {
         return num_str.chars()
-            .mapToObj(e -> String.valueOf((char) e))
-            .mapToInt(Integer::valueOf)
+            .map(e -> Integer.valueOf(e - '0'))
             .sum();
     }
 }
