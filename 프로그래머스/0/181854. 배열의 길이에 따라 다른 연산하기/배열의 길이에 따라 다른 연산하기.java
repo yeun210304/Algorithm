@@ -1,18 +1,8 @@
-import java.util.stream.IntStream;
-
 class Solution {
-    public int[] solution(int[] arr, int n) {
-        boolean isEven = arr.length%2 == 0;
-        int[] answer = new int[arr.length];
-        
-        for(int i=0; i<arr.length; i++) {
-            if (i%2==0) {
-                answer[i] = isEven? arr[i] : arr[i]+n;
-            }
-            else {
-                answer[i] = isEven? arr[i]+n : arr[i];
-            }
+    public int[] solution(int[] arr, int n) {        
+        for(int i=arr.length%2==0?1:0; i<arr.length; i+=2) {
+            arr[i]+=n;
         }
-        return answer;
+        return arr;
     }
 }
