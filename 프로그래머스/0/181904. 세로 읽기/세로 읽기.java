@@ -1,0 +1,11 @@
+import java.util.stream.IntStream;
+import java.util.stream.Collectors;
+
+class Solution {
+    public String solution(String my_string, int m, int c) {
+        return IntStream.range(0, my_string.length())
+                .filter(i -> i == c-1 || i % m == c-1 /* m의 제곱 + c - 1*/)
+                .mapToObj(e -> String.valueOf((char) my_string.charAt(e)))
+                .collect(Collectors.joining());
+    }
+}
