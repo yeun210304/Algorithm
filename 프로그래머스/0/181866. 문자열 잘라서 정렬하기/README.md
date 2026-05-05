@@ -1,10 +1,10 @@
 # [level 0] 문자열 잘라서 정렬하기 - 181866 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181866?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181866?language=javascript) 
 
 ### 성능 요약
 
-메모리: 95.1 MB, 시간: 31.70 ms
+메모리: 38.3 MB, 시간: 12.37 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 05월 05일 16:06:11
+2026년 05월 05일 16:14:50
 
 ### 문제 설명
 
