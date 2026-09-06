@@ -1,10 +1,10 @@
 # [level 0] 369게임 - 120891 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120891?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120891) 
 
 ### 성능 요약
 
-메모리: 44.1 MB, 시간: 0.12 ms
+메모리: 11.5 MB, 시간: 0.01 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2026년 09월 06일 16:43:37
+2026년 09월 06일 17:07:33
 
 ### 문제 설명
 
